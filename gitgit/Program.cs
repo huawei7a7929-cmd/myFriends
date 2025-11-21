@@ -1,4 +1,5 @@
-﻿Console.InputEncoding = System.Text.Encoding.UTF8;
+Console.InputEncoding = System.Text.Encoding.UTF8;
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-Console.WriteLine("Hello, World! У нас немає світла!");
+Console.WriteLine("Привіт!");
+Console.WriteLine("Пояснення по коду:\r\n git -v -- перевірка версії гіта\r\n\r\ngit config --global user.name novakvova -- налаштування імені користувача\r\n\r\ngit config --global user.email novakvova@gmail.com -- налаштування пошти користувача\r\n\r\ngit config --global user.email -- перевірка пошти користувача\r\n\r\ngit config --global user.name -- перевірка імені користувача\r\n\r\ngit status -- перевірка стану репозиторію\r\n\r\ngit init -- ініціалізація гіт репозиторію\r\n\r\ngit status -- перевірка стану репозиторію\r\n\r\ngit add . -- додавання всіх файлів до індексу\r\n\r\ngit status -- перевірка стану репозиторію\r\n\r\ngit commit -m\"Add Readme\" -- створення коміту з повідомленням \"Add Readme\"\r\n\r\ngit status -- перевірка стану репозиторію\r\n\r\ngit branch -M main -- перейменування гілки в main\r\ngit remote add origin https://github.com/novakvova/MiniPigCPP.git -- додавання віддаленого репозиторію з назвою origin\r\ngit push -u origin main -- відправка змін до віддаленого репозиторію origin на гілку main з встановленням upstream зв'язку"); 
